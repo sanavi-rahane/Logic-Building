@@ -93,6 +93,14 @@ void SinglyLLL<T> :: InsertFirst(T no)
     }
     this->iCount++;
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     InsertLast       
+//    Input               :     Data of Node
+//    Output              :     Nothing
+//    Description         :     Used to insert node at Last position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void SinglyLLL<T> :: InsertLast(T no)
 {
@@ -117,6 +125,14 @@ void SinglyLLL<T> :: InsertLast(T no)
     }
     this->iCount++;
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     DeleteFirst       
+//    Input               :     Nothing
+//    Output              :     Nothing
+//    Description         :     Used to Delete node at first position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void SinglyLLL<T> ::  DeleteFirst()
 {
@@ -138,6 +154,14 @@ void SinglyLLL<T> ::  DeleteFirst()
     }
     this->iCount--;
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     DeleteLast       
+//    Input               :     Nothing
+//    Output              :     Nothing
+//    Description         :     Used to Delete node at Last position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void SinglyLLL<T> :: DeleteLast()
 {
@@ -164,7 +188,14 @@ void SinglyLLL<T> :: DeleteLast()
     }
     this->iCount--;
 }
-
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     Display      
+//    Input               :     Nothing
+//    Output              :     Nothing
+//    Description         :     Used to Display nodes of Linked List
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void SinglyLLL<T> :: Display()    
 {
@@ -180,12 +211,28 @@ void SinglyLLL<T> :: Display()
 
     
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     Count       
+//    Input               :     Nothing
+//    Output              :     iCount
+//    Description         :     Used to return count of nodes 
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 int SinglyLLL<T> :: Count()
 {
     return this->iCount;
 }
 template<class T>
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     InsertAtPos      
+//    Input               :     Data of Node and position
+//    Output              :     Nothing
+//    Description         :     Used to insert node at position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 void SinglyLLL<T> :: InsertAtPos(T no,int pos)
 {
     int iCnt = 0;
@@ -220,6 +267,14 @@ void SinglyLLL<T> :: InsertAtPos(T no,int pos)
 
     }
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     DeleteAtPos       
+//    Input               :     Position
+//    Output              :     Nothing
+//    Description         :     Used to delete node which is at position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void SinglyLLL<T> :: DeleteAtPos(int pos)
 {
@@ -310,6 +365,14 @@ DoublyLLL<T> :: DoublyLLL()
     this->iCount = 0;
 }
 template <class T>
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     InsertFirst       
+//    Input               :     Data of Node
+//    Output              :     Nothing
+//    Description         :     Used to insert node at first position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 void DoublyLLL<T> :: Insertfirst(T no)
 {
     DoublyLLLnode<T> *newn = NULL;
@@ -327,6 +390,14 @@ void DoublyLLL<T> :: Insertfirst(T no)
     }
     this->iCount++;
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     InsertLast       
+//    Input               :     Data of Node
+//    Output              :     Nothing
+//    Description         :     Used to insert node at first position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template <class T>
 void  DoublyLLL<T> :: Insertlast(T no)
 {
@@ -351,6 +422,14 @@ void  DoublyLLL<T> :: Insertlast(T no)
     }
     this->iCount++;
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     InsertAtPos       
+//    Input               :     Data of Node and Position
+//    Output              :     Nothing
+//    Description         :     Used to insert node at position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template <class T>
 void DoublyLLL<T> :: InsertAtPos(T no,int pos)
 {
@@ -387,6 +466,14 @@ void DoublyLLL<T> :: InsertAtPos(T no,int pos)
         this->iCount++;
     }
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     DeleteFirst      
+//    Input               :     Nothing
+//    Output              :     Nothing
+//    Description         :     Used to Delete node at first position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template <class T>
 void DoublyLLL<T> :: DeleteFirst()
 {
@@ -409,6 +496,14 @@ void DoublyLLL<T> :: DeleteFirst()
     }
     this->iCount--;
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     DeleteLast       
+//    Input               :     Nothing
+//    Output              :     Nothing
+//    Description         :     Used to delete node at last position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template <class T>
 void  DoublyLLL<T> :: DeleteLast()
 {
@@ -435,6 +530,14 @@ void  DoublyLLL<T> :: DeleteLast()
     }
     this->iCount--;
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     DeleteAtPos      
+//    Input               :     Position
+//    Output              :     Nothing
+//    Description         :     Used to delete node at position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template <class T>
 void DoublyLLL<T> :: DeleteAtPos(int pos)
 {
@@ -467,6 +570,14 @@ void DoublyLLL<T> :: DeleteAtPos(int pos)
         this->iCount--;
     }
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     Display      
+//    Input               :     Nothing
+//    Output              :     Nothing
+//    Description         :     Used to Display nodes of Linked List
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template <class T>
 void DoublyLLL<T> :: Display()
 {
@@ -481,6 +592,14 @@ void DoublyLLL<T> :: Display()
     cout<<"NULL\n";
     
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     Count      
+//    Input               :     Nothing
+//    Output              :     iCount
+//    Description         :     Used to return Count of nodes
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template <class T>
 int DoublyLLL<T> :: Count()
 {
@@ -537,6 +656,14 @@ DoublyCLL<T> :: DoublyCLL()
     this->last = NULL;
     this->iCount = 0;
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     InsertFirst      
+//    Input               :     Data of Node
+//    Output              :     Nothing
+//    Description         :     Used to insert node at first position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void DoublyCLL<T> :: InsertFirst(T no)
 {
@@ -557,6 +684,14 @@ void DoublyCLL<T> :: InsertFirst(T no)
     this->first->prev = this->last;
     this->iCount++;
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     InsertLast       
+//    Input               :     Data of Node
+//    Output              :     Nothing
+//    Description         :     Used to insert node at last position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void DoublyCLL<T> :: InsertLast(T no)
 {
@@ -578,6 +713,14 @@ void DoublyCLL<T> :: InsertLast(T no)
     this->first->prev = this->last;
     this->iCount++;
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     InsertAtPos       
+//    Input               :     Data of Node and Position
+//    Output              :     Nothing
+//    Description         :     Used to insert node at position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void DoublyCLL<T> :: InsertAtPos(T no,int pos)
 {
@@ -617,6 +760,14 @@ void DoublyCLL<T> :: InsertAtPos(T no,int pos)
 
     }
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     DeleteFirst       
+//    Input               :     Nothing
+//    Output              :     Nothing
+//    Description         :     Used to delete node at first position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void DoublyCLL<T> :: DeleteFirst()
 {
@@ -639,6 +790,14 @@ void DoublyCLL<T> :: DeleteFirst()
     this->first->prev = this->last;
     this->iCount--;
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     DeleteLast      
+//    Input               :     Nothing
+//    Output              :     Nothing
+//    Description         :     Used to delete node at Last position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template <class T>
 void DoublyCLL<T> :: DeleteLast()
 {
@@ -661,6 +820,14 @@ void DoublyCLL<T> :: DeleteLast()
     this->first->prev = this->last;
     this->iCount--;
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     DeleteAtPos       
+//    Input               :     Position
+//    Output              :     Nothing
+//    Description         :     Used to delete node at position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void DoublyCLL<T> :: DeleteAtPos(int pos)
 {
@@ -693,6 +860,14 @@ void DoublyCLL<T> :: DeleteAtPos(int pos)
         temp->next->prev = temp;
     }
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     Display      
+//    Input               :     Nothing
+//    Output              :     Nothing
+//    Description         :     Used to display nodes
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void DoublyCLL<T> :: Display()
 {
@@ -707,6 +882,14 @@ void DoublyCLL<T> :: Display()
     cout<<"\n";
     
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     Count       
+//    Input               :     Nothing
+//    Output              :     icount
+//    Description         :     Used to  return Count of Nodes 
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 int DoublyCLL<T> :: Count()
 {
@@ -763,6 +946,14 @@ SinglyCLL<T> :: SinglyCLL()
     this->last = NULL;
 }
 template<class T>
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     InsertFirst       
+//    Input               :     Data of Node
+//    Output              :     Nothing
+//    Description         :     Used to insert node at first position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 void SinglyCLL<T> :: InsertFirst(T no)
 {
     SinglyCLLnode<T> *newn = NULL;
@@ -781,6 +972,14 @@ void SinglyCLL<T> :: InsertFirst(T no)
     this->last->next = this->first;
     this->iCount++;
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     InsertLast       
+//    Input               :     Data of Node
+//    Output              :     Nothing
+//    Description         :     Used to insert node at Last position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void SinglyCLL<T> :: InsertLast(T no)
 {
@@ -800,6 +999,14 @@ void SinglyCLL<T> :: InsertLast(T no)
     this->last->next = this->first;
     this->iCount++;
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     Delete      
+//    Input               :     Nothing
+//    Output              :     Nothing
+//    Description         :     Used to delete node at first position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void SinglyCLL<T> :: DeleteFirst()
 {
@@ -820,6 +1027,14 @@ void SinglyCLL<T> :: DeleteFirst()
     this->last->next = this->first;
     this->iCount--;
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     DeletetLast       
+//    Input               :     Nothing
+//    Output              :     Nothing
+//    Description         :     Used to delete node at Last position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void SinglyCLL<T> :: DeleteLast()
 {
@@ -847,6 +1062,14 @@ void SinglyCLL<T> :: DeleteLast()
     this->last->next = this->first;
     this->iCount--;
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     InsertAtPos       
+//    Input               :     Data of Node and Position
+//    Output              :     Nothing
+//    Description         :     Used to insert node at position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void SinglyCLL<T> :: InsertAtPos(T no,int pos)
 {
@@ -880,6 +1103,14 @@ void SinglyCLL<T> :: InsertAtPos(T no,int pos)
         this->iCount++;
     }
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     DeleteAtPos       
+//    Input               :     Position
+//    Output              :     Nothing
+//    Description         :     Used to delete node at position
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void SinglyCLL<T> :: DeleteAtPos(int pos)
 {
@@ -914,6 +1145,14 @@ void SinglyCLL<T> :: DeleteAtPos(int pos)
     }
 
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     Display       
+//    Input               :     Nothin
+//    Output              :     Nothing
+//    Description         :     Used to display nodes
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void SinglyCLL<T> :: Display()
 {
@@ -928,6 +1167,14 @@ void SinglyCLL<T> :: Display()
     cout<<"\n";
     
 }
+/////////////////////////////////////////////////////////////////////////////////
+//    Function Name       :     Count       
+//    Input               :     Nothing
+//    Output              :     iCount
+//    Description         :     Used to return Count of  node 
+//    Auther              :     Sanavi Devram Rahane
+//    Date                :     06/01/2026
+/////////////////////////////////////////////////////////////////////////////////
 template<class T>
 int SinglyCLL<T> :: Count()
 {
@@ -939,6 +1186,7 @@ int SinglyCLL<T> :: Count()
 
 int main()
 {
+    cout<<"SINGLY LINEAR ";
 SinglyLLL<int> *sobj = new SinglyLLL<int>();
     int iRet = 0;
 
@@ -982,7 +1230,7 @@ SinglyLLL<int> *sobj = new SinglyLLL<int>();
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
+cout<<"DOUBLY LINEAR";
     DoublyLLL<char> *dobj = new DoublyLLL<char>();
 
     dobj->Insertfirst('c');
@@ -1019,7 +1267,7 @@ SinglyLLL<int> *sobj = new SinglyLLL<int>();
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    
+    cout<<"DOUBLY CIRCULER";
     DoublyCLL<int> *obj = new DoublyCLL<int>();
 
     obj->InsertFirst(51);
@@ -1053,6 +1301,7 @@ SinglyLLL<int> *sobj = new SinglyLLL<int>();
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+    cout<<"SINGLY CIRCULER ";
     SinglyCLL<int> *slobj = new SinglyCLL<int>();
 
     slobj->InsertFirst(51);
